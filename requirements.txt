@@ -1,0 +1,32 @@
+# Core
+django>=5.0
+gunicorn
+python-dotenv
+
+# Database
+psycopg[binary]
+pgvector
+
+# API
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+
+# Storage
+django-storages
+boto3
+minio
+
+# LLM
+langchain
+langchain-community
+langchain-openai
+openai
+
+# Utilities
+tiktoken
+
+# Docs
+pypdf
+python-docx
+markdown
