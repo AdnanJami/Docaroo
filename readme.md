@@ -82,7 +82,7 @@ docker compose -f docker-compose.dev.yml exec django python manage.py migrate
 docker compose -f docker-compose.dev.yml exec django python manage.py createsuperuser
 
 ### React — install a new package
-docker compose -f docker-compose.dev.yml exec frontend npm install axios react-router-dom @types/react-router-dom react-markdown
+docker compose -f docker-compose.dev.yml exec frontend npm install react-router-dom @types/react-router-dom react-markdown
 
 ### start
 docker compose -f docker-compose.dev.yml up
