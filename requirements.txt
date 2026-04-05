@@ -30,3 +30,7 @@ tiktoken
 pypdf
 python-docx
 markdown
+
+rsa
+social-auth-app-django
+social-auth-core
