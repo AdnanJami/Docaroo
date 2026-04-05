@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'social_django', 
     "api",
+    "chat",
 ]
 
 MIDDLEWARE = [
