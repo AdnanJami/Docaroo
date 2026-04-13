@@ -2,7 +2,7 @@
 django>=5.0
 gunicorn
 python-dotenv
-
+google-auth
 # Database
 psycopg[binary]
 pgvector

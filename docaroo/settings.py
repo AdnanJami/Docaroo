@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'social_django', 
     "api",
     "chat",
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -163,3 +164,5 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['email', 'profile']
 
 SITE_ID = 1
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
